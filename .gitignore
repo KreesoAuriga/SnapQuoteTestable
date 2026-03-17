@@ -1,0 +1,6 @@
+# App and DB are populated by prepare script - ignore if running locally
+# app/
+# LocalDatabase.db
+
+/.specstory
+/.vs
