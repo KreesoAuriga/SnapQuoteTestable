@@ -6,6 +6,8 @@ The containerized server represents an API server used to handle login and accou
 
 The server contains vulnerabilities that were re-created from a real world case of a data breach.
 
+Post an issue with contact information to acquire a list of the specific vulnerabilities added. They are not explicitly described here to make it difficult for human/AI testees to 'cheat'.
+
 # Attribution
 
 This server in the container is based on Jason Whatmore's dotnet 5 login sample project https://github.com/cornflourblue/dotnet-5-registration-login-api
