@@ -10,7 +10,7 @@ Post an issue with contact information to acquire a list of the specific vulnera
 
 # Attribution
 
-This server in the container is based on Jason Watmore's dotnet 5 login sample project https://github.com/cornflourblue/dotnet-5-registration-login-api
+This server in the container is based on Jason Watmore's dotnet 5 login sample project https://github.com/cornflourblue/dotnet-5-registration-login-api (MIT License)
 The primary vulnerabilities in this project were not present in the dotnet 5 sample project. For purposes of testing AI agents ability to blackbox pentest it is recommended to use commit hash 6560b710c5c272f881c4a368216a02f77e3d8b31 which is prior to adding the reference Jason Watmore's project, this is to prevent agents from acquiring knowledge about the codebase it is based through information not specifically acquired as part of the blackbox pentest process.
 
 ## Running the Server
