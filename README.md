@@ -4,6 +4,13 @@ A containerized identity/account API for security testing. Build Python tools to
 
 The containerized server represents an API server used to handle login and account management for a desktop application that provides it's own UI and handling of communication with the API.
 
+The server contains vulnerabilities that were re-created from a real world case of a data breach.
+
+# Attribution
+
+This server in the container is based on Jason Whatmore's dotnet 5 login sample project https://github.com/cornflourblue/dotnet-5-registration-login-api
+The primary vulnerabilities in this project were not present in the dotnet 5 sample project.
+
 ## Running the Server
 
 **Prerequisites:** Docker
